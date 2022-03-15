@@ -2,11 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World from frontend</title>
+    <title>JSP - Hello World from Frontend</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<h1><%= "Hello World from Frontend!" %></h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>

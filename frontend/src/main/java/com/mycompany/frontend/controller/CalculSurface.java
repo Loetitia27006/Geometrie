@@ -1,4 +1,6 @@
 package com.mycompany.frontend.controller;
 
-public class CalculSurface {
+import javax.servlet.http.HttpServlet;
+
+public class CalculSurface extends HttpServlet {
 }

@@ -1,4 +1,6 @@
 package com.mycompany.frontend.controller;
 
-public class CalculPerimetre {
+import javax.servlet.http.HttpServlet;
+
+public class CalculPerimetre extends HttpServlet {
 }

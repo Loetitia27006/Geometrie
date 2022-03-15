@@ -1,9 +1,14 @@
 package com.mycompany.backend;
 
-import com.mycompany.backend.controller.Main;
+import com.mycompany.backend.controller.MainController;
 
 public class MainApplication {
-    public static void main(String[] args) {
-        Main main = new Main();
+    public static void  main(String[] args) {
+
+
+            MainController mainController = new MainController();
+
+            String choix = mainController.askOperation();
+        }
     }
-}
+
