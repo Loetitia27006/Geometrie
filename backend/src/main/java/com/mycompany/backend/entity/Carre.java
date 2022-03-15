@@ -1,4 +1,4 @@
 package com.mycompany.backend.entity;
 
-public class Carre {
+public class Carre implements FigureGeometriqueInterface{
 }

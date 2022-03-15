@@ -1,4 +1,4 @@
 package com.mycompany.backend.entity;
 
-public class Rectangle {
+public class Rectangle implements FigureGeometriqueInterface{
 }

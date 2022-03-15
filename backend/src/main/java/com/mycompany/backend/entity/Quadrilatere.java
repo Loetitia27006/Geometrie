@@ -1,4 +1,4 @@
 package com.mycompany.backend.entity;
 
-public class Quadrilatere {
+public class Quadrilatere implements FigureGeometriqueInterface{
 }
