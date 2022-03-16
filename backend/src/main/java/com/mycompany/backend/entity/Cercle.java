@@ -1,4 +1,4 @@
 package com.mycompany.backend.entity;
 
-public class Cercle implements FigureGeometriqueInterface{
+public class Cercle {
 }
