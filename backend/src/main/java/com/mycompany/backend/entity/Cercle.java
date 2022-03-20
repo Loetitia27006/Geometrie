@@ -5,7 +5,8 @@ public class Cercle implements FigureGeometriqueInterface{
 
     @Override
     public double calculerSurface() {
-        double surface = Math.PI * rayon * rayon
+        double surface = Math.PI * rayon * rayon;
+        return surface;
     }
 
     @Override
