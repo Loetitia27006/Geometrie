@@ -16,6 +16,7 @@ public class Rectangle extends Quadrilatere implements FigureGeometriqueInterfac
 
     @Override
     public double calculerPerimetre() {
+
         return (this.getLargeur() + this.getLongueur()*2);
     }
 }
