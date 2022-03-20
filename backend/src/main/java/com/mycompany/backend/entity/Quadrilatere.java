@@ -10,6 +10,7 @@ public abstract class Quadrilatere {
     }
 
     public Quadrilatere(double cote) {
+
         this.cote = cote;
     }
 

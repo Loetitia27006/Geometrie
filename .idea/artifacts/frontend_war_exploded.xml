@@ -13,6 +13,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="frontend" />
         </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="backend-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="backend" />
+          </element>
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
