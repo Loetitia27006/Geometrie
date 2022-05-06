@@ -20,8 +20,13 @@ public class CalculerPerimetre extends HttpServlet {
 
         switch (figure){
             case "carre":
+<<<<<<< HEAD
                 Carre carre = new Carre();
                 Double perimetre = carre.perimetre();
+=======
+                Carre carre = new Carre(cote);
+                Double perimetre = carre.calculerPerimetre();
+>>>>>>> main
                 req.setAttribute("perimetre",perimetre);
                 break;
         }
